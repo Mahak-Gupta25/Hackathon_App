@@ -40,5 +40,5 @@ iv) Migrate the database by running the following commands.
   $ python manage.py runserver
   ```
 9. To access the application checkout http://127.0.0.1:8000
-10. Follow the steps given [Link]([https://mypadhai.herokuapp.com/](https://docs.google.com/document/d/10BV1MMT7DcFWb5PdTFSJyLFMsaQ2oHKooI9fMDN1CkM/edit?usp=sharing)) to run and test the various APIs.
+10. Follow the given [Link](https://docs.google.com/document/d/10BV1MMT7DcFWb5PdTFSJyLFMsaQ2oHKooI9fMDN1CkM/edit?usp=sharing) to run and test the various APIs.
 
