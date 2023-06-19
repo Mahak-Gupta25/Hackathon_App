@@ -18,17 +18,17 @@ The hackathon can be posted by anyone and they will be authorized before they ar
   ```
   $ pip install -r requirements.txt
   ```
-5. Now before running the server, we have to setup database. To do so, follow the following steps -
-      i) Install postreSQl and pgAdmin.
-      ii) Create a database in pgAdmin.
-      iii) Link the database django project by setting the name, user and password fileds of "DATABASE" section of settings.py file.
-      iv) Migrate the database by running the following commands.
-          ```
-          $ python manage.py makemigrations
-          ```
-          ```
-          $ python manage.py migrate
-          ```
+5. Now before running the server, setup the database. To do so, follow the following steps -
+i) Install postreSQl and pgAdmin.
+ii) Create a database in pgAdmin.
+iii) Link the database django project by modifying the name, user and password fileds of "DATABASE" section of settings.py file.
+iv) Migrate the database by running the following commands.
+    ```
+    $ python manage.py makemigrations
+    ```
+    ```
+    $ python manage.py migrate
+    ```
 
 6. Now create superuser for accessing the admin panel.
   ```
